@@ -2,3 +2,48 @@
   margin: 0;
   padding: 0;
 }
+
+@font-face {
+  font-family: SFPRODISPLAYBOLD;
+  src: url(fonts/SFPRODISPLAYBOLD.OTF);
+}
+
+@font-face {
+  font-family: SFPRODISPLAYMEDIUM;
+  src: url(fonts/SFPRODISPLAYMEDIUM.OTF);
+}
+
+@font-face {
+  font-family: SFPRODISPLAYREGULAR;
+  src: url(fonts/SFPRODISPLAYREGULAR.OTF);
+}
+
+@font-face {
+  font-family: SFPRODISPLAYLIGHT;
+  src: url(fonts/SFPRODISPLAYLIGHT.ttf);
+}
+
+@font-face {
+  font-family: SF-Pro-Text-Bold;
+  src: url(fonts/SF-Pro-Text-Bold.otf);
+}
+
+@font-face {
+  font-family: SF-Pro-Text-BoldItalic;
+  src: url(fonts/SF-Pro-Text-BoldItalic.otf);
+}
+
+@font-face {
+  font-family: SF-Pro-Text-Light;
+  src: url(fonts/SF-Pro-Text-Light.otf);
+}
+
+@font-face {
+  font-family: SF-Pro-Text-Medium;
+  src: url(fonts/SF-Pro-Text-Medium.otf);
+}
+
+@font-face {
+  font-family: SF-Pro-Text-Regular;
+  src: url(fonts/SF-Pro-Text-Regular.otf);
+}
