@@ -76,3 +76,32 @@ header {
   align-items: center;
   justify-content: center;
 }
+
+#hero h1 {
+  font-family: SFPRODISPLAYBOLD;
+  font-size: 56px;
+  color: rgba(245, 245, 247, 1);
+  line-height: 60px;
+  letter-spacing: -0.28px;
+}
+
+#hero p {
+  font-family: SFPRODISPLAYREGULAR;
+  color: rgba(110, 110, 115, 1);
+  letter-spacing: 0.11px;
+  line-height: 31px;
+  font-size: 26px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+#hero button {
+  font-family: SFPRODISPLAYREGULAR;
+  color: rgba(41, 151, 255, 1);
+  letter-spacing: 0.23px;
+  line-height: 29px;
+  font-size: 21px;
+  text-decoration: none;
+  border: none;
+  background-color: transparent;
+}
