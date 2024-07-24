@@ -119,3 +119,17 @@ header {
   height: 100vh;
   background-color: rebeccapurple;
 }
+
+header nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 18px;
+}
+
+header nav a {
+  color: white;
+  text-decoration: none;
+  font-family: SFPRODISPLAYMEDIUM;
+  font-size: 15px;
+}
