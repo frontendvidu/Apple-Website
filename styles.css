@@ -51,6 +51,7 @@
 .outer {
   position: relative;
   width: 100%;
+  box-sizing: border-box;
 }
 
 header {
@@ -132,4 +133,13 @@ header nav a {
   text-decoration: none;
   font-family: SFPRODISPLAYMEDIUM;
   font-size: 15px;
+}
+
+#two {
+  background: url(images/div.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 736px;
 }
