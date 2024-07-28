@@ -174,14 +174,14 @@ header nav a {
   color: 1D1D1F;
 }
 
-#three span {
+.button_span {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 10px;
 }
 
-#three button {
+.btn {
   font-family: SFPRODISPLAYREGULAR;
   color: rgba(0, 102, 204, 1);
   letter-spacing: 0.23px;
@@ -211,6 +211,42 @@ header nav a {
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
+  padding-top: 49px;
+}
+
+.featured_two {
+  background: url(images/wewe.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.featured_three {
+  background: url(images/sds.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.featured_four {
+  background: url(images/www.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.featured_five {
+  background: url(images/five.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.featured_six {
+  background: url(images/six.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .product_featured h3 {
