@@ -203,15 +203,18 @@ header nav a {
 .product_featured {
   width: 738px;
   height: 636px;
-  background: url(images/ss.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
   padding-top: 49px;
+}
+
+.featured_one {
+  background: url(images/ss.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .featured_two {
