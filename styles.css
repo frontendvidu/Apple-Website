@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 @font-face {
@@ -235,14 +236,14 @@ header nav a {
   background: url(images/www.png);
   background-position: center;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
 }
 
 .featured_five {
   background: url(images/five.png);
   background-position: center;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
 }
 
 .featured_six {
@@ -264,4 +265,21 @@ header nav a {
   font-size: 21px;
   line-height: 26px;
   color: rgba(245, 245, 247, 1);
+}
+
+#footer {
+  background-color: white;
+  width: 100%;
+  padding: 10px 261px;
+}
+
+.footer_paragraph {
+  font-family: SF-Pro-Text-Regular;
+  font-size: 12px;
+  line-height: 16px;
+  color: rgba(110, 110, 115, 1);
+}
+
+.footer_paragraph span {
+  color: rgba(66, 66, 69, 1);
 }
