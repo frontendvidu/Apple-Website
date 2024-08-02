@@ -283,3 +283,48 @@ header nav a {
 .footer_paragraph span {
   color: rgba(66, 66, 69, 1);
 }
+
+#footer a {
+  font-family: SF-Pro-Text-Regular;
+  font-size: 12px;
+  line-height: 16px;
+  color: rgba(66, 66, 69, 1);
+  text-decoration: none;
+  margin-bottom: 16px;
+}
+
+.upper_footer {
+  margin-bottom: 32px;
+}
+
+.lower_footer {
+  padding-top: 23px;
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+  width: 100%;
+  border-top: 1px solid rgba(210, 210, 215, 1);
+}
+
+.menu_columns {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.menu_columns nav {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.menu_columns h5 {
+  font-family: SF-Pro-Text-Bold;
+  color: rgba(29, 29, 31, 1);
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: -0.12px;
+  margin-bottom: 14px;
+}
