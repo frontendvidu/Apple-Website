@@ -328,3 +328,35 @@ header nav a {
   letter-spacing: -0.12px;
   margin-bottom: 14px;
 }
+
+.copyright {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  width: 100%;
+}
+
+.copyright_lower {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: inherit;
+  padding-top: 10px;
+  border-top: 1px solid rgba(210, 210, 215, 1);
+}
+
+.copyright_upper {
+  padding-bottom: 5px;
+}
+
+.copyright_lower nav a {
+  margin-left: 15px;
+}
+
+.copyright p {
+  font-family: SF-Pro-Text-Regular;
+  font-size: 12px;
+  line-height: 16px;
+  color: rgba(110, 110, 115, 1);
+}
